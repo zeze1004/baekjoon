@@ -4,13 +4,15 @@ https://www.acmicpc.net/problem/2003
 
 ## zeze의 풀이
 
-`[투 포인터](https://m.blog.naver.com/kks227/220795165570)` 이용
+[투 포인터](https://m.blog.naver.com/kks227/220795165570) 이용
 
 ~~위의 글을 읽고 오자^^~~
+
 
 백준 예제 1을 예시로 설명하겠다.
 
 num = 4, goal_num = 2다.
+
 
 배열 arr[num] = { 1, 1, 1, 1 }을 넣어준다.
 
