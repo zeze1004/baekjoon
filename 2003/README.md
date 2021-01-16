@@ -1,16 +1,14 @@
-\# 2003번: 수들의 합 2
+# 2003번: 수들의 합 2
 
 https://www.acmicpc.net/problem/2003
 
-\## zeze의 풀이
+## zeze의 풀이
 
 `[투 포인터](https://m.blog.naver.com/kks227/220795165570)` 이용
 
 ~~위의 글을 읽고 오자^^~~
 
 백준 예제 1을 예시로 설명하겠다.
-
-![image-20210116213639322](C:\Users\thwjd\AppData\Roaming\Typora\typora-user-images\image-20210116213639322.png)
 
 num = 4, goal_num = 2다.
 
@@ -87,6 +85,10 @@ sum != goal_num이므로 다시 1.1부터 시작한다.
 
 ### 2
 
+#### 현재까지 상태
+
+_sum = 1, end = 1, start = 0, count = 0_
+
 1.1)
 
 sum = 1, goal_num = 2이므로 1.2로 이동
@@ -151,7 +153,7 @@ end++;
 
 2. true 이므로 count 1 증가
 
-### 4
+### 5
 
 #### 현재까지 상태
 
@@ -165,7 +167,7 @@ _sum = 2, end = 3, start = 1, count = 1_
 
 2. false
 
-### 5
+### 6
 
 #### 현재까지 상태
 
@@ -179,23 +181,11 @@ _sum = 1, end = 3, start = 2, count = 1_
 
 2. count++
 
-### 6
-
-#### 현재까지 상태
-
-_sum = 2, end = 4, start = 2, count = 2_
-
-1.1) true
-
-​ sum = 1, start = 3
-
-2. count++
-
 ### 7
 
 #### 현재까지 상태
 
-_sum = 1, end = 4, start = 3, count = 3_
+_sum = 1, end = 4, start = 2, count = 3_
 
 1.1) false
 
